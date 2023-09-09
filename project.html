@@ -1,0 +1,212 @@
+<html>
+  <head>
+<title> Samsung India</title>
+       <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+<nav>
+      <div class="wrapper">
+        <div class="logo">
+          <img src="https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/gnb-desktop-120x32.png" height="auto" width="auto" />
+        </div>
+        <div class="nav-links">
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Mobile</a></li>
+          <li><a href="#">TV & AV</a></li>
+          <li><a href="#">Home Appliances</a></li>
+          <li><a href="#">Laptop & Monitors</a></li>
+          <li><a href="#">Displays</a></li>
+          <li><a href="#">Accessories</a></li>
+          <li><a href="#">SmartThings</a></li>
+        </div>
+        <div class="nav-links">
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Business</a></li>
+        </div>
+      </div>
+</nav>
+<header>
+      <div class="mySlides fade">
+        <img id="i1" src="https://images.samsung.com/is/image/samsung/assets/in/2307/home/HOME_B5Q5_Main-KV_1440x640_pc_default.jpg?$ORIGIN_JPG$" height="auto" width="100%">
+        <h1 id="one">Galaxy Z Fold5</h1>
+        <h3 id="o1"><u>Learn more</u></h3>
+        <button class="bt1">Buy now</button>
+        <h1 id="two">Galaxy Z Flip5</h1>
+        <h3 id="o2"><u>Learn more</u></h3>
+        <button class="bt2">Buy now</button>
+     </div>
+        <div class="mySlides fade">
+          <img id="i2" src="https://images.samsung.com/is/image/samsung/assets/in/home/Neo_Qled_8K_Without-Text_1440X6401.jpg?imwidth=1366" height="auto" width="100%">
+          <h1 id="three">Neo QLED</h1>
+          <p id="o3">Get up to ₹24500* off with instant bank discount and app voucher</p>
+          <button class="bt3">Buy now</button>
+      </div>
+            <div class="mySlides fade" >        
+         <img id="i3" src="https://images.samsung.com/is/image/samsung/assets/in/home/1440x640-copy-21.jpg?imwidth=1366"  height="auto" width="100%" >
+          <h1 id="four">AI Ecobubble<br>Washing Machine</h1>
+          <p id="o4">Intelligent Wash. Power Clean.<br>Get upto 15% off with instant bank discount*</p>
+          <button class="bt4">Buy now</button>
+      </div>
+       <div class="mySlides fade" >
+            <img id="i4" src="https://images.samsung.com/is/image/samsung/assets/in/home/Homepage_KV_1440x640-super-saver-days.jpg?imwidth=1366"  height="auto" width="100%">
+          <h1 id="five">Set Out A<br>Saving Spree</h1>
+          <p id="o5">Get up to ₹20000* instant bank discount<br>Addl.₹6000 off with shop app welcome voucher </p>
+          <button class="bt5">Buy now</button>
+    </div>
+      </div>
+      <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span>
+      </div>
+      <script>
+        let slideIndex = 0;
+          showSlides();
+            function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 5000);
+          }
+          </script>
+</header><br><br>
+<div class="highlightes">
+  <h1>This Week's Highlightes</h1><br>
+</div>
+<div class="Mobile">
+  <img id="im1" src="https://images.samsung.com/is/image/samsung/assets/in/home/0814/PM_S23Ultra1440x810.jpg?$1440_810_JPG$" height="auto" width="100%">
+ <h1 id="m1">Mobile</h1> 
+ <h1 id="m2">Galaxy S23 Ultra</h1>
+ <p id="m3">Starting ₹4875/mo.(No Cost EMI up to 24 months)<br>Bundle with an accessory & get 5% off on both</p>
+ <button class="b1">Buy now</button>
+</div>
+<div class="TV">
+  <img id="im2" src="https://images.samsung.com/is/image/samsung/assets/in/home/Qled-4K_1440x8102.jpg?$1440_810_JPG$" height="auto" width="100%">
+ <h1 id="t1">TV & AV</h1> 
+ <h1 id="t2">QLED</h1>
+ <p id="t3">Starting ₹50490* Incl.₹4500* off with app welcome voucher</p>
+ <button class="b2">Buy now</button>
+</div>
+<div class="Applications">
+  <img id="im3" src="https://images.samsung.com/is/image/samsung/assets/in/home/PM_1440x810-VR30T85513W_TL.jpg?$1440_810_JPG$" height="auto" width="100%">
+  <h1 id="h1">Home Applications</h1> 
+  <h1 id="h2">Jet Bot+</h1>
+  <p id="h3">Starting ₹59900* Incl.₹6000* off with instant bank discount & app voucher</p>
+  <button class="b3">Buy now</button>
+ </div><br>
+<div class="end">
+  <h1>Looking for something else?</h1><br>
+  <input id="search" type="text" placeholder="Search Keyword"><br><br><br><br><br>
+  <p>* Image simulated for illustrative purpose. Actual UX/UI may differ.<br><br>
+    * S Pen Fold Edition sold separately and is only compatible with Z Fold5, Z Fold4 and Z Fold3. Flex mode supported at angles between 75˚ and 115˚.<br><br>
+    * Image simulated. Color and model availability may vary depending on country or carrier.<br><br>
+    * Galaxy Tab S9, Tab S9+, Tab S9 Ultra is rated as IP68. Based on test condition for submersion in up to 1.5 meter of fresh water for up to 30 mins. Not advised for beach or pool use.<br><br>
+    * 5G Devices are 5G ready, connectivity dependent on network availability.<br><br>
+    * Images shown here are for representational purpose only, actual may vary. All features, specifications and prices are subject to change without prior notice. Model availability may vary from location to location.<br><br>
+    * Image simulated. S Pen Fold Edition sold separately and is only compatible with Galaxy Z Fold4 and Galaxy Z Fold3.<br><br>
+    * Watch screen image simulated for illustrative purpose. Availability of colours, sizes, models, and watch bands may vary by country or carrier.<br><br>
+    * Image simulated. Available colours of Galaxy Buds2 Pro may vary by country or carrier.<br><br>
+    # T&C Apply. Cashback at the sole discretion of the issuer / NBFC.<br><br>
+    ** Product launch dates vary from country to country. Some products may be launched earlier in few countries.<br><br>
+    * Offer valid on select models only.</p><br><hr>
+</div>
+    <div class="last">
+        <div class="box">
+            <h3>Product & Service</h3>
+            <a href="#">Smartphones</a>
+            <a href="#">Tablets</a>
+            <a href="#">Audio Sound</a>
+            <a href="#">Watches</a>
+            <a href="#">Smart Switch</a>
+            <a href="#">Mobile Accessories</a>
+            <a href="#">TVs</a>
+            <a href="#">Sound Devices</a>
+            <a href="#">Refrigerators</a>
+            <a href="#">Laundey</a>
+            <a href="#">Air Solutions</a>
+            <a href="#">Cooking Appliances</a>
+            <a href="#">Monitors</a>
+            <a href="#">Memory Storage</a>
+        </div>
+        <div class="box">
+            <h3>Shop</h3>
+            <a href="#">FAQs</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Welcome Voucher</a>
+            <a href="#">Samsung Referral Advantage</a>
+            <a href="#">Samsung Student Advantage</a>
+            <a href="#">Defence Purchase Program</a>
+            <a href="#">Corprate Employee Program</a>
+            <a href="#">Corprate Bulk Purchase</a>
+            <a href="#">Samsung Experience Store</a>
+            <a href="#">Store Locator</a>
+            <a href="#">Smart Club</a>
+            <a href="#">Terms Of Use</a>
+            <a href="#">Grevance Redressal</a>
+            <a href="#">Explore</a>
+        </div>
+        <div class="box">
+            <h3>Support</h3>
+            <a href="#">WhatsApp Us</a>
+            <a href="#">Sign Language</a>
+            <a href="#">Email Us</a>
+            <a href="#">Call Us</a>
+            <a href="#">Email To CEO</a>
+            <a href="#">Product Registration</a>
+            <a href="#">Service Centre</a>
+            <a href="#">Share Your Openion</a>
+        </div>
+        <div class="box">
+            <h3>Account & Community</h3>
+            <a href="#">My Page</a>
+            <a href="#">My Products</a>
+            <a href="#">Orders</a>
+            <a href="#">Wishlist</a>
+            <a href="#">Vouchers</a>
+            <a href="#">My Referrals</a>
+            <a href="#">Service</a>
+            <a href="#">Community</a>
+        </div>
+        <div class="box">
+          <h3>Sustainability</h3>
+          <a href="#">Environment</a>
+          <a href="#">Security & Privacy</a>
+          <a href="#">Accessiblity</a>
+          <a href="#">Diversity.Equity.Inclusion</a>
+          <a href="#">Corprate Citizenship</a>
+          <a href="#">Corprate Sustainability</a>
+          <h3>About Us</h3>
+          <a href="#">Company Info</a>
+          <a href="#">Business Area</a>
+          <a href="#">Brand Identity</a>
+          <a href="#">Careers</a>
+          <a href="#">Investor Relations</a>
+          <a href="#">Newsroom</a>
+          <a href="#">Ethics</a>
+          <a href="#">Samsung Design</a>
+      </div>
+    </div><hr><br>
+    <div class="copy">
+      <p>Copyright ⓒ 1995-2023 SAMSUNG All Rights reserved.<br><br>
+         Please dispose of e-waste and plastic waste responsibly.<br>
+         For more information or e-waste pick up, please call 1800 5 7267864 or click here for more details.<br><br>
+         Registered Office Address: 6th Floor, DLF Centre, Sansad Marg, New Delhi-110001 <br>
+         Corporate Identification Number (CIN): U31900DL1995PTC071387</p>
+    </div><br><hr><br>
+    <h5>India/English</h5><br>
+  </body>
+</html>
+
+
+
